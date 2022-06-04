@@ -1,0 +1,64 @@
+.custom-table {
+    padding-top: 78px;
+}
+.market-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.player-list {
+    margin-bottom: 24px 0 128px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    margin: 53.92px 474.92px 48px 468px; 
+}
+.inactive-arrow {
+    display: none;
+}
+.left-arrow {
+    display: flex;
+    cursor: pointer;
+}
+.page-button {
+    display: flex;
+    margin-left: 8px;
+    cursor: pointer;
+    items: center;
+}
+.right-arrow {
+    display: flex;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 16px 16px 20px;
+}
+.price > span {
+    width: 68px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.ant-btn-dangerous {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #FFFFFF !important;
+    border-radius: 8px !important;
+}
+.ant-btn-dangerous > span {
+    color: #E8282B;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}

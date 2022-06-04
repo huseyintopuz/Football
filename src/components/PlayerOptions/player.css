@@ -1,0 +1,11 @@
+.player-options {
+    display: flex;
+    height: 922px;
+    margin: 122px 40px 108px ;
+}
+.mycard-market {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}

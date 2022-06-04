@@ -1,0 +1,91 @@
+.slider-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    background-image: url('../../icons/stadiumBac.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.left-side-new {
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (width <= 768px) {
+    .left-side-new {
+        justify-content: none;
+    }
+}
+.new {
+   font-family: 'Source Sans Pro';
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 90.5px;
+   color: #FFFFFF;
+   margin: 0;
+}
+.bronze {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70.39px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.pagination-slide {
+    display: flex;
+    align-items: center;
+    margin-top: 30.67px;
+}
+.active {
+    background: transparent ;
+}
+.left-arrow {
+    margin-right: 16.6px;
+    width: 18.67px;
+    height: 18.67px;
+}
+.page-control {
+    margin-right: 4px;
+    width: 8x;
+    height: 8px;
+    border-radius: 100px;
+}
+.right-arrow {
+    margin-left: 16.6px;
+    width: 18.67px;
+    height: 18.67px;
+}
+@media screen and (width < 576px) {
+    .slider-black > .ant-row-center {
+        justify-content: start;
+        padding-left: 20px!important;
+    }
+}
+@media screen and (width >= 576px) {
+    .slider-black > .ant-row-center {
+        justify-content: start;
+        padding-left: 80px;
+    }
+}
+@media screen and (width <= 768px) {
+    .slider-black > .ant-row-center {
+        justify-content: start;
+        padding-left: 70px;
+    }
+}
+@media screen and (width >= 992px) {
+    .slider-black > .ant-row-center {
+        justify-content: start;
+        padding-left: 150px;
+    }
+}
+@media screen and (width >= 1200px) {
+    .slider-black > .ant-row-center {
+        justify-content: start;
+        padding-left: 210px;
+    }
+}

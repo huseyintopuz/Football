@@ -1,0 +1,23 @@
+.market-wrap {
+    display: flex;
+    height: 922px;
+    margin: 122px 40px 108px ;
+}
+.market-div {
+    height: 774px;
+    background: #FFFFFF;
+}
+.drop-down {
+    width: 199px;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 0 24px;
+    align-items: flex-start;
+}
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 !important;
+    color: #000000;
+}

@@ -1,0 +1,12 @@
+.dropdown {
+    width: 199px;
+    height: 428px;
+    padding: 24px 0 0 24px;
+}
+.border {
+    width: 151px;
+    border: 1px solid #E3E5E6;
+}
+..ant-menu-inline .ant-menu-item-selected::after {
+    transform: translate;
+}

@@ -1,0 +1,123 @@
+.header {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 64px;
+    background-color: #000000;
+    z-index: 100;
+    /* gap: 707px; */
+}
+.full {
+    width: 100%;
+}
+@media screen and (width <= 768px) {
+    .header {
+        padding: 24px 80px 24px 20px;
+    }
+}
+.left-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 96px;
+}
+@media screen and (width <= 768px) {
+    .logo {
+        width: 40px;
+    }
+}
+.white-ball {
+    width: 31.73px;
+    height: 31.59px;
+    margin-right: 8.96px;
+}
+.feFcIcon {
+    width: 81.91px;
+    height: 31.73px;
+}
+@media screen and (width <= 768px) {
+    .feFcIcon {
+        display: none;
+    }
+}
+.options {
+    width: 208px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (width <= 768px) {
+    .options {
+        justify-content: space-around;
+    }
+}
+.mycards {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+.rectangle {
+    margin: 0 auto;
+    width: 48px;
+    height: 4px;
+    background: #E8282B;
+}
+.active-tab {
+    margin: 0 auto;
+    width:48px;
+    height: 4px;
+    background: #E8282B;
+}
+.market {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+.red-background {
+    width:48px;
+    height:48px;
+    background: #E8282B;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side {
+    display: flex;
+    align-items: center;
+    width: 179px;
+    background: #303437;
+    border-radius: 8px;
+}
+.budget-icon {
+    width: 26.67px;
+    height: 24px;
+}
+.budget {
+    width: 89px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 8px 21px;
+    color: #FFFFFF;
+    
+}

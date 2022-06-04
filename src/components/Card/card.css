@@ -1,0 +1,88 @@
+.photo {
+    margin-left: 24px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 16px 16px 20px;
+}
+.price > span {
+    width: 68px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.shopping {
+    
+}
+.ant-btn-dangerous {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #FFFFFF !important;
+    border-radius: 8px !important;
+}
+.ant-btn-dangerous > span {
+    color: #E8282B;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.ant-modal-confirm-btns > .ant-btn-primary {
+    width: 351px;
+    height: 48px;
+}
+.ant-modal-confirm-body-wrapper > .ant-modal-confirm-body > .ant-modal-confirm-title {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+.ant-modal-confirm-body > .anticon-info-circle > svg {
+    display: none;
+}
+.ant-modal-confirm-btns > .ant-btn-primary {
+    border-color: #E8282B;
+    background: #E8282B;
+    border-radius: 8px;
+    
+}
+.ant-btn > span {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+.ant-modal-confirm-body > .anticon-exclamation-circle > svg {
+    display: none;
+}
+.ant-modal > .ant-modal-content > .ant-modal-body {
+    padding: 32px 24px;
+}
+.ant-modal-confirm-btns {
+    display: flex;
+    flex-direction: column;
+}
+.ant-modal-confirm-body-wrapper > .ant-modal-confirm-btns > .ant-btn-dangerous {
+    background: #E8282B !important;
+    width: 351px;
+    height: 48px;
+}
+.ant-modal-confirm-body-wrapper > .ant-modal-confirm-btns > .ant-btn-dangerous > span {
+    
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+.ant-modal-confirm-body-wrapper > .ant-modal-confirm-btns > .ant-btn-default {
+    border-color: transparent !important;
+}

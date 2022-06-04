@@ -1,0 +1,27 @@
+.myCardsCom {
+    height: 774px;
+    display:flex;
+    background: #FFFFFF;
+}
+.dropDown {
+    width: 199px;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 0 24px;
+}
+.title {
+    width: 81px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 !important;
+    color: #000000;
+}
+.myCardList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 78px;
+    padding: 0;
+}
