@@ -1,6 +1,6 @@
 import './App.css';
 import Layout from './components/Layout'
-import 'antd/dist/antd.css'
+import 'antd/dist/antd.min.css'
 
 function App() {
 

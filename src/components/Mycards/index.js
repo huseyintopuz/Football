@@ -18,7 +18,6 @@ const Mycards = ({ cards, balance, setBalance, setAllData, allData }) => {
         ...allData,
         allPlayers: updatedAllPlayers,
       })
-
     }
   }
 
